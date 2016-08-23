@@ -1,3 +1,6 @@
+/**
+ * BackGround : 游戏背景移动控制
+ */
 class BackGround extends Laya.Sprite {
     //定义背景1
     private bg1: Laya.Sprite;

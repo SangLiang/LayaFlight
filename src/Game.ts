@@ -1,5 +1,5 @@
 /**
-* Game
+* Game:游戏入口
 */
 class Game {
     constructor() {
@@ -18,6 +18,7 @@ class Game {
         hero.pos(50,200);
         //把主角添加到舞台上
         Laya.stage.addChild(hero);
+        console.log(Laya);
     }
 }
 

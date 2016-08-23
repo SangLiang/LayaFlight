@@ -1,5 +1,5 @@
 /**
-* Game
+* Game:游戏入口
 */
 var Game = (function () {
     function Game() {
@@ -16,6 +16,7 @@ var Game = (function () {
         hero.pos(50, 200);
         //把主角添加到舞台上
         Laya.stage.addChild(hero);
+        console.log(Laya);
     };
     return Game;
 }());
